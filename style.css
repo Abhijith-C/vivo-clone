@@ -64,6 +64,9 @@ footer .footer-container {
     background-color: #242933;
     color: #8a8f99;
 }
+footer {
+    margin-top: 30px;
+}
 .footer-container .left-section {
     width: 60%;
 display: flex;
@@ -108,4 +111,42 @@ footer .copyright {
 }
 .copyright .left ul li {
     margin-right: 20px;
+}
+
+.discover .sec-1 .first {
+    position: relative;
+}
+.discover .sec-1 .first .head {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.discover .sec-2 .first {
+    position: relative;
+}
+.discover .sec-2 .first .head {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+.discover .sec-3 .first {
+    position: relative;
+}
+.discover .sec-3 .first .head {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+.discover .sec-1 .child-1 {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    line-height: 25px;
+}
+.discover .sec-3 .child-1 {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    line-height: 30px;
 }
